@@ -74,6 +74,7 @@ namespace Belvis___Final_Lab_1
         {
             string connectionString;
             SqlConnection con;
+            // Use Database Location/Source for connectionString
             connectionString = @"Data Source=BELVIS-DJ\SQLEXPRESS01;Initial Catalog=RegistrationFormDB;Integrated Security=True";
 
             con = new SqlConnection(connectionString);
@@ -122,6 +123,7 @@ namespace Belvis___Final_Lab_1
         {
             string connectionString;
             SqlConnection con;
+            // Use Database Location/Source for connectionString
             connectionString = @"Data Source=BELVIS-DJ\SQLEXPRESS01;Initial Catalog=RegistrationFormDB;Integrated Security=True";
 
             con = new SqlConnection(connectionString);
@@ -167,6 +169,7 @@ namespace Belvis___Final_Lab_1
         {
             string connectionString;
             SqlConnection con;
+            // Use Database Location/Source for connectionString
             connectionString = @"Data Source=BELVIS-DJ\SQLEXPRESS01;Initial Catalog=RegistrationFormDB;Integrated Security=True";
 
             con = new SqlConnection(connectionString);
@@ -180,6 +183,7 @@ namespace Belvis___Final_Lab_1
         {
             string connectionString;
             SqlConnection con;
+            // Use Database Location/Source for connectionString
             connectionString = @"Data Source=BELVIS-DJ\SQLEXPRESS01;Initial Catalog=RegistrationFormDB;Integrated Security=True";
 
             con = new SqlConnection(connectionString);
@@ -226,6 +230,7 @@ namespace Belvis___Final_Lab_1
         {
             string connectionString;
             SqlConnection con;
+            // Use Database Location/Source for connectionString
             connectionString = @"Data Source=BELVIS-DJ\SQLEXPRESS01;Initial Catalog=RegistrationFormDB;Integrated Security=True";
 
             con = new SqlConnection(connectionString);
